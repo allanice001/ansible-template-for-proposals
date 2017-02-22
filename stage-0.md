@@ -3,7 +3,7 @@
 Stage 0 proposals are either
 
 * planned to be presented to the committee by a champion, or
-* have been presented to the committee and not rejected definitively, but have not yet achieved any of the criteria to get into stage 1.
+* have been presented to the committee and not rejected definitively, but have not yet achieved any of the criteria to get into stage +1 / #next.
 
 | 🚀 | Proposal  | Champion | Notes | Stage |
 |---|-----------|-----------|-------|-------|
