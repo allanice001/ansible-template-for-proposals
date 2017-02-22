@@ -108,3 +108,38 @@ Changes to the language are developed by way of a process which provides guideli
     <td>Shipping
   </tr>
 </table>
+
+## Input into the process
+
+Ideas for evolving the ECMAScript language are accepted in any form. Any discussion, idea or proposal for a change or addition which has not been submitted as a formal proposal is considered to be a “BrainDump vs LightBulb” (stage 0) and has no acceptance requirements.
+
+# Status of in-process additions
+
+Ansible Core will maintain a list of in-process additions, along with the current maturity stage of each, on its GitHub.
+
+# Spec text
+
+At stages “draft” (stage 2) and later, the semantics, API and syntax of an addition should be described as edits to the latest published standard, using the same language and conventions. The quality of the spec text expected at each stage is described above.
+
+# Reviewers
+
+Anyone can be a reviewer and submit feedback on an in-process addition. The committee should identify designated reviewers for acceptance during the “draft” (stage 2) maturity stage. 
+These reviewers must give their sign-off / acceptance before a proposal enters the “candidate” (stage 3) maturity stage. Designated reviewers should not be authors of the spec text for the addition and should have expertise applicable to the subject matter. Designated reviewers must be chosen by the committee, not by the proposal's champion.
+
+When reviewers are designated, a target meeting for Stage 3 should be identified. Initial reviewer feedback should be given to the champions two weeks before that meeting to allow for a back-and-forth ahead of the meeting. The target Stage 3 meeting may be delayed by a champion outside of the meeting at a later time if it is not ready.
+
+# Calls for implementation and feedback
+
+When an addition is accepted at the “candidate” (stage 3) maturity level, the committee is signifying that it believes design work is complete and further refinement will require implementation experience, significant usage and external feedback.
+
+# Tests
+
+During stage 3, tests should be authored and submitted via pull request. Once it has been appropriately reviewed, it should be merged to aid implementors in providing the feedback expected during this stage.
+
+# Eliding the process
+
+The committee may elide the process based on the scope of a change under consideration as it sees fit.
+
+# Role of the editor
+
+In-process additions will likely have spec text which is authored by a champion or a committee member other than the editor although in some case the editor may also be a champion with responsibility for specific features. The editor is responsible for the overall structure and coherence of the proposed implementation. It is also the role of the editor to provide guidance and feedback to spec text authors so that as an addition matures, the quality and completeness of its specification improves. It is also the role of the editor to integrate additions which have been accepted as “finished” (stage 4) into the a new revision of the specification.
